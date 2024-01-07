@@ -33,4 +33,4 @@ class CommandTests(SimpleTestCase):
         self.assertEqual(patched_check.call_count, 6)
         patched_check.assert_called_with(databases=['default'])
 # docker-compose run --rm app sh -c "python manage.py startapp core"
-# $ docker-compose run --rm app sh -c "python manage.py createsuperuser"
+# $ docker-compose run --rm app sh -c "python manage.py createsuperuser"rff
